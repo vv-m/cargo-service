@@ -1,0 +1,71 @@
+.stop_scroll {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+
+}
+
+.opacity100 {
+    opacity: 100% !important;
+}
+
+
+.cl-btn-2 {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+    /* left: -90px; */
+    position: absolute;
+    width: calc(100% - 40px);
+    z-index: 10;
+}
+.cl-btn-2 div {
+    cursor: pointer;
+    position: relative;
+    height: 68px;
+    width: 50px;
+}
+.cl-btn-2 .leftright {
+    height: 4px;
+    width: 50px;
+    position: absolute;
+    margin-top: 24px;
+    background-color: gray;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    transition: all .3s ease-in;
+}
+.cl-btn-2 .rightleft {
+    height: 4px;
+    width: 50px;
+    position: absolute;
+    margin-top: 24px;
+    background-color: gray;
+    border-radius: 2px;
+    transform: rotate(-45deg);
+    transition: all .3s ease-in;
+}
+.cl-btn-2 .close-btn {
+    margin: 54px 0 0 -5px;
+    position: absolute;
+    color: gray ;
+    font-family: Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all .3s ease-in;
+    opacity: 0;
+}
+.cl-btn-2 div:hover .leftright {
+    transform: rotate(-45deg);
+    background-color: gray;
+}
+.cl-btn-2 div:hover .rightleft {
+    transform: rotate(45deg);
+    background-color: gray;
+}
+.cl-btn-2 div:hover .close-btn {
+    opacity: 1;
+}

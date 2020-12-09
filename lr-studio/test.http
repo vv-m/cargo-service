@@ -1,0 +1,14 @@
+POST https://vv-m.ru/lr-studio/php/UPDATE_invoice.php
+Content-Type: application/x-www-form-urlencoded
+
+number_invoice=1&seller=1&item_name=1&
+weight=1&
+volume=1&
+item_coast=1&
+deliver_coast_to_RUSSIA=1&
+deliver_coast_to_HOME=1&
+status_of_payment=1&
+data_shipping_from_CHINA=1&
+data_delivery_to_RUSSIA=1&
+type_of_shipping=1&
+stataus_delivery=1&

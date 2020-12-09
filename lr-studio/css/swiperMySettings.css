@@ -1,0 +1,47 @@
+.row {
+    min-width: 0px;
+}
+
+body {
+    position: relative;
+}
+
+.swiper-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-wrapper {
+
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.gallery-top {
+
+    width: 100%;
+}
+
+.gallery-thumbs {
+    height: 200px;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.gallery-thumbs .swiper-slide {
+    height: 300px;
+    opacity: 0.2;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.gallery-top .swiper-wrapper .swiper-slide {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
